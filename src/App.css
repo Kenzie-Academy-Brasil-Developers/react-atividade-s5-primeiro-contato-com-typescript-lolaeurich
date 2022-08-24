@@ -1,0 +1,100 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 0 0 0;
+  line-height: 50px;
+  color: rgb(132, 3, 206);
+  font-size: larger;
+  font-weight: 600;
+}
+
+.Input {
+  display: flex;
+  color: black;
+
+  height: 27px;
+  width: 248px;
+  border: solid rgb(132, 3, 206) 5px;
+  border-radius: 10px;
+}
+
+.Button {
+  background-color: rgb(132, 3, 206);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: 600;
+  height: 40px;
+  margin: 30px 0 3px 4px;
+  transition-duration: .4s;
+  width: 210px;
+}
+
+.Button:hover {
+  background-color: #ffffff; 
+  color: #27ae60;
+}
+
+.DivDaDiv {
+  display: flex;
+}
+
+.Ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  margin: 16px 16px;
+  border-radius: 5px;
+}
+
+p {
+  background-color: #fff;
+  line-height: normal;
+  width: 200px;
+  height: 11px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
